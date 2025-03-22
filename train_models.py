@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # Set non-interactive backend before importing pyplot
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
@@ -141,8 +143,8 @@ print("\n=== Training Logistic Regression with Hyperparameter Tuning ===")
 lr_param_grid = {
     'C': [0.01, 0.1, 1, 10, 100],
     'penalty': ['l2'],
-    'solver': ['liblinear', 'saga', 'newton-cg'],
-    'max_iter': [10000]
+    'solver': ['liblinear'],
+    'max_iter': [7000]
 }
 lr_model = tune_hyperparameters(
     LogisticRegression(random_state=42),

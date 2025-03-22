@@ -180,16 +180,16 @@ ENV/
 env/
 
 # Data files
-data/*.csv
-data/X_test.csv
-data/X_train.csv
-data/y_test.csv
-data/y_train.csv
+# data/*.csv  # Comment out or remove
+# data/X_test.csv
+# data/X_train.csv
+# data/y_test.csv
+# data/y_train.csv
 
 # Model files
-models/*.pkl
-models/*.txt
-models/model_comparison.csv
+# models/*.pkl  # Comment out or remove
+# models/*.txt
+# models/model_comparison.csv
 
 # IDE settings
 .vscode/
