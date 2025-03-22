@@ -19,7 +19,7 @@ This project analyzes a bank marketing campaign dataset to predict whether clien
 ## How to Run the Streamlit App
 ```bash
 cd bank_marketing_project
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 ## Features
