@@ -203,3 +203,10 @@ Thumbs.db
 
 # Local development settings
 *.local
+
+
+# Deployment files and folders
+deployment/
+*.zip
+*.bat
+*.sh
