@@ -172,3 +172,34 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Python virtual environment
+bank_env/
+venv/
+ENV/
+env/
+
+# Data files
+data/*.csv
+data/X_test.csv
+data/X_train.csv
+data/y_test.csv
+data/y_train.csv
+
+# Model files
+models/*.pkl
+models/*.txt
+models/model_comparison.csv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local development settings
+*.local

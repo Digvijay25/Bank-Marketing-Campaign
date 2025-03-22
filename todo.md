@@ -1,0 +1,42 @@
+# Bank Marketing Campaign Project
+
+## Tasks
+- [x] Create project directory structure
+- [x] Explore and understand the data
+  - [x] Check data shape and basic statistics
+  - [x] Analyze data types and missing values
+  - [x] Examine feature distributions
+  - [x] Understand target variable distribution
+- [x] Clean the data
+  - [x] Handle missing values
+  - [x] Handle outliers
+  - [x] Convert categorical variables
+- [x] Perform feature engineering
+  - [x] Create new features
+  - [x] Transform existing features
+  - [x] Encode categorical variables
+  - [ ] Scale numerical features
+- [x] Create visualizations
+  - [x] Univariate analysis
+  - [x] Bivariate analysis
+  - [x] Correlation analysis
+  - [x] Target variable analysis
+- [ ] Train multiple models
+  - [ ] Split data into train and test sets
+  - [ ] Train baseline models
+  - [ ] Train advanced models
+  - [ ] Perform hyperparameter tuning
+- [ ] Evaluate and select best model
+  - [ ] Compare model performance
+  - [ ] Analyze feature importance
+  - [ ] Fine-tune best model
+  - [ ] Save best model
+- [ ] Build Streamlit app
+  - [ ] Create app structure
+  - [ ] Implement prediction functionality
+  - [ ] Add visualizations
+  - [ ] Add user interface
+- [ ] Test and finalize deployment
+  - [ ] Test app locally
+  - [ ] Prepare for deployment
+  - [ ] Document usage instructions
