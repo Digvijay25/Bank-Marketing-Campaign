@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib
-matplotlib.use('Agg')  # Set non-interactive backend before importing pyplot
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
@@ -174,7 +172,7 @@ dt_metrics = evaluate_model(dt_model, X_train, X_test, y_train, y_test, "Decisio
 # 3. Tune and Train Random Forest
 print("\n=== Training Random Forest with Hyperparameter Tuning ===")
 rf_param_grid = {
-    'n_estimators': [50, 100, 200],
+    'n_estimators': [200],
     'max_depth': [None, 10, 20, 30],
     'min_samples_split': [2, 5, 10],
     'min_samples_leaf': [1, 2, 4]
