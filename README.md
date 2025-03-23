@@ -14,7 +14,8 @@ Our XGBoost model achieved:
 - F1 Score: 89.1%
 - ROC AUC: 0.934
 
-![ROC Curve](visualizations/model_performance/roc_curve.png)
+<img src="visualizations/models/xgboost_roc_curve.png" alt="ROC Curve" width="500"/>
+
 
 ## Top Predictive Features
 1. Duration of contact (last contact duration)
